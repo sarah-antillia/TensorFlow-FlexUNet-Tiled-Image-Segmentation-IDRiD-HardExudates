@@ -14,7 +14,6 @@ which was derived by us from
 Indian Diabetic Retinopathy Image Dataset (IDRiD)
 </b>
 </a>
-
 <br><br>
 <b>Experiment Strategies</b><br>
 In this experiment, we employed the following strategies.
@@ -23,7 +22,6 @@ In this experiment, we employed the following strategies.
 We trained and validated a TensorFlow UNet model using the Tiled-IDRiD-HardExudates-ImageMask-Dataset, which was tiledly-splitted to 512x512 pixels 
 and reduced to 512x512 pixels image and mask dataset from the original 4288x2848 pixels images and mask files.<br>
 <br>
-
 <b>2. Tiled Image Segmentation</b><br>
 We applied our Tiled-Image Segmentation inference method to predict the HardExudates regions for the mini_test images 
 with a resolution of 4288x2848 pixels.<br><br>
@@ -33,7 +31,6 @@ On a singlelcass segmentation model, please refer to our experiment
 <br><br>
 <hr>
 <b>Acutual Tiled Image Segmentation for IDRiD-HardExudates Images of 4288x2848 pixels</b><br>
-
 As shown below, the inferred masks predicted by our segmentation model trained on the 
 PNG dataset appear similar to the ground truth masks, but lack precision in some areas,.
 <br>
@@ -66,7 +63,6 @@ PNG dataset appear similar to the ground truth masks, but lack precision in some
 <br>
 <h3>1 Dataset Citation</h3>
 The dataset used here was obtained from the following <b>IEEE DataPort</b> web site<br>
-
 <a href="https://ieee-dataport.org/open-access/indian-diabetic-retinopathy-image-dataset-idrid">
 <b>
 Indian Diabetic Retinopathy Image Dataset (IDRiD)
@@ -75,7 +71,6 @@ Indian Diabetic Retinopathy Image Dataset (IDRiD)
 <br><br>
 Please see also <a href="https://idrid.grand-challenge.org/">
 <b>DIABETIC RETINOPATHY: SEGMENNTATION AND GRAND CHALLENGE</b> </a>
-
 <br>
 <br>
 <b>Citation Author(s):</b><br>
@@ -85,7 +80,6 @@ April 24, 2018, "Indian Diabetic Retinopathy Image Dataset (IDRiD)", IEEE Datapo
 <br>
 DOI: <a href="https://dx.doi.org/10.21227/H25W98">https://dx.doi.org/10.21227/H25W98</a><br>
 <br>
-
 <b>License:</b><br>
 <a href="http://creativecommons.org/licenses/by/4.0/">
 Creative Commons Attribution 4.0 International License.
@@ -98,9 +92,8 @@ Creative Commons Attribution 4.0 International License.
  If you would like to train this Tiled-IDRiD-HardExudates Segmentation model by yourself,
  please download the 512x512 pixels dataset
 <a href="https://drive.google.com/file/d/1NWq2tFInZb8dqSAr-k3DpJJipA9DflwQ/view?usp=sharing">
-Augmented-Tiled-IDRiD-HardExudates-PNG-ImageMask-Dataset.zip</a> on the google drive.
-<br>
-, expand the downloaded ImageMaskDataset and put it under <b>./dataset</b> folder to be
+Augmented-Tiled-IDRiD-HardExudates-PNG-ImageMask-Dataset.zip</a> on the google drive, 
+expand the downloaded ImageMaskDataset and put it under <b>./dataset</b> folder to be
 <pre>
 ./dataset
 └─Tiled-IDRiD-HardExudates
@@ -128,10 +121,10 @@ Augmented-Tiled-IDRiD-HardExudates-PNG-ImageMask-Dataset.zip</a> on the google d
 As shown above, the number of images of train and valid datasets is not so large to use for a training set of our segmentation model.
 <br>
 <br>
-On the derivation of this augmented dataset, please refer to our experiment:<br
-<a href="https://github.com/sarah-antillia/Tensorflow-Tiled-Image-Segmentation-IDRiD-HardExudates">Tensorflow-Tiled-Image-Segmentation-IDRiD-HardExudates</a>
+On the derivation of this augmented dataset, please refer to our experiment:<br>
+<a href="https://github.com/sarah-antillia/Tensorflow-Tiled-Image-Segmentation-IDRiD-HardExudates">
+<b>Tensorflow-Tiled-Image-Segmentation-IDRiD-HardExudates</b></a>
 <br>
-
 <br>
 <b>Train_images_sample</b><br>
 <img src="./projects/TensorFlowFlexUNet/Tiled-IDRiD-HardExudates/asset/train_images_sample.png" width="1024" height="auto">
