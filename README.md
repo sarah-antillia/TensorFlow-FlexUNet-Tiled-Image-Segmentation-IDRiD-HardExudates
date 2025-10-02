@@ -5,8 +5,8 @@ This is the first experiment of Image Segmentation for Indian Diabetic Retinopat
  <a href="https://github.com/sarah-antillia/TensorFlow-FlexUNet-Image-Segmentation-Model">
 <b>TensorFlowFlexUNet (TensorFlow Flexible UNet Image Segmentation Model for Multiclass)</b></a>
 , and a 512x512 pixels 
-<a href="https://drive.google.com/file/d/1NWq2tFInZb8dqSAr-k3DpJJipA9DflwQ/view?usp=sharing">
-<b>Augmented-Tiled-IDRiD-HardExudates-PNG-ImageMask-Dataset.zip</b></a>.
+<a href="https://drive.google.com/file/d/1BI9ncRIQIPG5CBwTgF2rWj2lMHnykmdW/view?usp=sharing">
+<b>Tiled-IDRiD-HardExudates-PNG-ImageMask-Dataset.zip</b></a>.
 which was derived by us from 
 <br><br>
 <a href="https://ieee-dataport.org/open-access/indian-diabetic-retinopathy-image-dataset-idrid">
@@ -91,8 +91,8 @@ Creative Commons Attribution 4.0 International License.
 </h3>
  If you would like to train this Tiled-IDRiD-HardExudates Segmentation model by yourself,
  please download the 512x512 pixels dataset
-<a href="https://drive.google.com/file/d/1NWq2tFInZb8dqSAr-k3DpJJipA9DflwQ/view?usp=sharing">
-Augmented-Tiled-IDRiD-HardExudates-PNG-ImageMask-Dataset.zip</a> on the google drive, 
+<a href="https://drive.google.com/file/d/1BI9ncRIQIPG5CBwTgF2rWj2lMHnykmdW/view?usp=sharing">
+Tiled-IDRiD-HardExudates-PNG-ImageMask-Dataset.zip</a> on the google drive, 
 expand the downloaded ImageMaskDataset and put it under <b>./dataset</b> folder to be
 <pre>
 ./dataset
